@@ -1,0 +1,1 @@
+C:/Users/yuki.lin/AppData/Local/Programs/Python/Python39/python.exe "D:\CB_Web\Flowting_board\Pen\colorx54x3\c187574.py"
