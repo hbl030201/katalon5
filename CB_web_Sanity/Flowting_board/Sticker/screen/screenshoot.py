@@ -15,5 +15,5 @@ def fun1(a,x1, y1, x2, y2):
 
  # 存放位置
 #  file ='C:\\Users\mars.wu\\Katalon Studio\\CBWeb_1_0_jenkins\\CB_web_Sanity\\Flowting_board\\Sticker\\' + image
- file ='C:\\Users\\mars.wu\\Katalon Studio\\CBWeb_1_0_jenkins\\CBWeb\\' + image
+ file ='CBWeb_1_0_jenkins\\CBWeb\\' + image
  return file

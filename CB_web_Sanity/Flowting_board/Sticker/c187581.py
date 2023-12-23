@@ -101,7 +101,8 @@ for i in range(1, 16, 1):
 
   # 比對圖片
   compare_image = 'shape' + str(i)  + '_' + str(j) + '_compare.png'
-  file2="C:\\Users\mars.wu\\Katalon Studio\\CBWeb_1_0_jenkins\\CB_web_Sanity\\Flowting_board\\Sticker\\"+ compare_image
+  # file2="C:\\Users\mars.wu\\Katalon Studio\\CBWeb_1_0_jenkins\\CB_web_Sanity\\Flowting_board\\Sticker\\"+ compare_image
+  file2="CBWeb_1_0_jenkins\\CB_web_Sanity\\Flowting_board\\Sticker\\"+ compare_image
   result = check.fun2(file1,file2)
   time.sleep(1)
   if result == 'PASS' :
