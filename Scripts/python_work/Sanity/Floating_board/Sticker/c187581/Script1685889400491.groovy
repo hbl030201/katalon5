@@ -26,7 +26,9 @@ import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 
 //String command = 'C:\\Users\\mars.wu\\Katalon Studio\\CBWeb_1_0_jenkins\\CB_web_Sanity\\Flowting_board\\Sticker\\c187581.bat'
-String command = 'https:///github.com//hbl030201//katalon4.git//CB_web_Sanity//Flowting_board//Sticker//c187581.bat'
+//String command = 'https:///github.com//hbl030201//katalon4.git//CB_web_Sanity//Flowting_board//Sticker//c187581.bat'
+String command = 'https:///github.com//hbl030201//katalon4//blob//main//CB_web_Sanity//Flowting_board//Sticker//c187581.bat'
+
 //exec command
 p = Runtime.getRuntime().exec(command)
 
