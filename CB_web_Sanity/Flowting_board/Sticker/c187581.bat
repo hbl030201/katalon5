@@ -1,1 +1,14 @@
-C:\Python37\python.exe "CBWeb_1_0_jenkins\CB_web_Sanity\Flowting_board\Sticker\c187581.py"
+name: Python application
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Set up Python 3.10
+      run: python .github/workflows/c187581.py"
