@@ -25,8 +25,8 @@ import org.apache.commons.net.telnet.TelnetClient as TelnetClient
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 
-String command = 'C:\\Users\\mars.wu\\Katalon Studio\\CBWeb_1_0_jenkins\\CB_web_Sanity\\Flowting_board\\Sticker\\c187581.bat'
-
+//String command = 'C:\\Users\\mars.wu\\Katalon Studio\\CBWeb_1_0_jenkins\\CB_web_Sanity\\Flowting_board\\Sticker\\c187581.bat'
+String command = 'CB_web_Sanity\\Flowting_board\\Sticker\\c187581.bat'
 //exec command
 p = Runtime.getRuntime().exec(command)
 
