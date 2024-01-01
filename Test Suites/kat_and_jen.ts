@@ -12,17 +12,10 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>9b20c279-c79f-462d-bb9e-f5c11a99ed39</testSuiteGuid>
    <testCaseLink>
-      <guid>41b05115-74a2-4513-a716-6ce43fb8c877</guid>
+      <guid>d5cc374c-4f88-4203-9ae9-85425e0870ee</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Account/Account settings/c187557</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>58c0dc13-0f2d-4f5e-9a66-73bbb1854caf</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Account/Account settings/c187559</testCaseId>
+      <testCaseId>Test Cases/Account/login/c187632</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -30,13 +23,6 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/python_work/Sanity/Floating_board/Sticker/c187581</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>f164ef1c-5fbb-409d-bdf0-31987f0c3f02</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/python_work/Sanity/Floating_board/Sticker/c187582</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

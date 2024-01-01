@@ -1,14 +1,1 @@
-name: Python application
-
-on:
-  workflow_dispatch:
-
-jobs:
-  build:
-
-    runs-on: ubuntu-latest
-
-    steps:
-    - uses: actions/checkout@v3
-    - name: Set up Python 3.10
-      run: python .github/workflows/c187581.py"
+C:\Python37\python.exe "C:\Users\mars.wu\Katalon Studio\CBWeb_1_0_jenkins\CBWeb\CB_web_Sanity\Flowting_board\Sticker\c187581.py"
