@@ -29,34 +29,35 @@ import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 //String command = 'https:///github.com//hbl030201//katalon4.git//CB_web_Sanity//Flowting_board//Sticker//c187581.bat'
 //String command = 'C:\\ProgramData\\Jenkins\\.jenkins\\workspace\\CB1\\CB_web_Sanity\\Flowting_board\\Sticker\\CB_web_Sanity\\Flowting_board\\Sticker\\CB_web_Sanity\\Flowting_board\\Sticker\\c187581.bat'
 //String command = 'C:\\Users\\mars.wu\\ForJenkins\\CB_web_Sanity\\Flowting_board\\Sticker\\c187581.bat'
-String command = 'hello.bat'
+//String command = 'hello.bat'
 
+print("abc123")
 
-//exec command
-p = Runtime.getRuntime().exec(command)
-
-//get the output
-//InputStream fis=p.getInputStream();
-//used streamreader
-//InputStreamReader isr=new InputStreamReader(fis);
-//used buffered
-BufferedReader br = new BufferedReader(new InputStreamReader(p.getInputStream()))
-
-//PrintStream outStream = new PrintStream(new File("outFile.txt"));
-//System.setOut(outStream);
-String line = null
-
-//until read finished
-while ((line = br.readLine()) != null) {
-    System.out.println(line)
-
-    if (line == 'PASS') {
-        break
-    }
-    
-    if (line == 'FAIL') {
-        KeywordUtil.markFailed('Return code error !!!')
-		break
-    }
-}
+////exec command
+//p = Runtime.getRuntime().exec(command)
+//
+////get the output
+////InputStream fis=p.getInputStream();
+////used streamreader
+////InputStreamReader isr=new InputStreamReader(fis);
+////used buffered
+//BufferedReader br = new BufferedReader(new InputStreamReader(p.getInputStream()))
+//
+////PrintStream outStream = new PrintStream(new File("outFile.txt"));
+////System.setOut(outStream);
+//String line = null
+//
+////until read finished
+//while ((line = br.readLine()) != null) {
+//    System.out.println(line)
+//
+//    if (line == 'PASS') {
+//        break
+//    }
+//    
+//    if (line == 'FAIL') {
+//        KeywordUtil.markFailed('Return code error !!!')
+//		break
+//    }
+//}
 
