@@ -29,7 +29,8 @@ import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 //String command = 'https:///github.com//hbl030201//katalon4.git//CB_web_Sanity//Flowting_board//Sticker//c187581.bat'
 //String command = 'C:\\ProgramData\\Jenkins\\.jenkins\\workspace\\CB1\\CB_web_Sanity\\Flowting_board\\Sticker\\CB_web_Sanity\\Flowting_board\\Sticker\\CB_web_Sanity\\Flowting_board\\Sticker\\c187581.bat'
 //String command = 'C:\\Users\\mars.wu\\ForJenkins\\CB_web_Sanity\\Flowting_board\\Sticker\\c187581.bat'
-String command = 'D://hello.bat'
+//String command = 'D://hello.bat'
+String command = 'dir'
 
 //print("abc123")
 //String command = 'C:\\Python37\\python.exe "C:\\Users\\mars.wu\\Desktop\\Test_jenkins\\hello.py"'
