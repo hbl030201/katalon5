@@ -30,13 +30,15 @@ import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 //String command = 'C:\\ProgramData\\Jenkins\\.jenkins\\workspace\\CB1\\CB_web_Sanity\\Flowting_board\\Sticker\\CB_web_Sanity\\Flowting_board\\Sticker\\CB_web_Sanity\\Flowting_board\\Sticker\\c187581.bat'
 //String command = 'C:\\Users\\mars.wu\\ForJenkins\\CB_web_Sanity\\Flowting_board\\Sticker\\c187581.bat'
 //String command = 'D://hello.bat'
-String command = 'dir'
-
+String command1 = 'cd C:\\Users'
+String command2 = 'dir'
+Runtime.getRuntime().exec(command1)
+Runtime.getRuntime().exec(command2)
 //print("abc123")
 //String command = 'C:\\Python37\\python.exe "C:\\Users\\mars.wu\\Desktop\\Test_jenkins\\hello.py"'
 
 ////exec command
-p = Runtime.getRuntime().exec(command)
+//p = Runtime.getRuntime().exec(command)
 //
 ////get the output
 ////InputStream fis=p.getInputStream();
